@@ -1,0 +1,32 @@
+<div>
+    <h2>Task Details</h2>
+
+    <table style="width:100%">
+        <tr>
+            <th>Edit</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Dependencies</th>
+            <th>Due Date</th>
+            <th>Delete</th>
+        </tr>
+        <tr>
+            <td>
+                <button  [routerLink]="['/edit', task.id]">
+                    <img class="imgIcon" src="../../../../../assets/EditIcon.jpg" />
+                </button>
+            </td>
+            <td> {{task.name}} </td>
+            <td> {{task.description}} </td>
+            <td> {{task.dependencies}} </td>
+            <td> {{task.timeToComplete}} </td>
+            <td>
+                <button (click)="deleteTask(task.id)">
+                    <img class="imgIcon" src="../../../../../assets/trash.jpg" />
+                </button>
+            </td>
+        </tr>
+
+    </table>
+
+</div>

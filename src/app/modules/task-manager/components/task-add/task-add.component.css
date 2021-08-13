@@ -1,0 +1,49 @@
+.outerDiv {
+
+    position:fixed;
+    top:65px;
+    left:0;
+    width:100%;
+    height:100%;
+   
+}
+
+.innerDiv {
+    width: 50%;
+    height: 50%;
+    top: 5%;
+    margin: 0 auto;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+}
+
+ 
+th {
+    text-align: left; 
+    height:25px;
+    background-color:mediumslateblue;
+    
+}
+
+.submitBtn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+input, textarea {
+    width:300px;
+    height: 50px;
+    border-style: hidden;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    margin-top: 2px;
+    padding-top: 10px;
+}
+

@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+    height: 45px;
+}
+
+th {
+    background-color:mediumslateblue;
+    
+}
+
+/*
+img{
+    width: 25px;
+    height: 25px;
+     
+}
+*/
+.imgIcon {
+    height: 24px;
+    width:24px;
+    border-style: none;
+    padding: 0px;
+   
+}
+.imgIcon:hover,
+.imgIcon:focus,
+.active {
+    border: 0px solid #ddd;
+    border-radius: 4px;
+    padding: 1px;
+    width: 26px;
+    border-style: ridge;
+}

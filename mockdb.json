@@ -1,0 +1,25 @@
+{
+  "task": [
+    {
+      "name": "Finish Task Module",
+      "description": "Build Task Module using CRUD operations",
+      "timeToComplete": "06/11/2021",
+      "dependencies": "time",
+      "id": 2
+    },
+    {
+      "name": "Hair Cut",
+      "description": "Need to cut your hair",
+      "dependencies": "schedule an appt. ",
+      "timeToComplete": "06/11/21",
+      "id": 5
+    },
+    {
+      "name": "Pick up food",
+      "description": "dont forget dinner",
+      "dependencies": "none",
+      "timeToComplete": "08/14/2021",
+      "id": 6
+    }
+  ]
+}

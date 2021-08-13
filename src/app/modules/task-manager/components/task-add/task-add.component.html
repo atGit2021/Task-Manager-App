@@ -1,0 +1,50 @@
+<div class="outerDiv">
+
+    <div class="innerDiv">
+        <h2>Create Task</h2>
+
+        <form (ngSubmit)="addTask()">
+            <table>
+                <tr>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="input" type="text" name="name" required [(ngModel)]="model.name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea class="input" type="text" name="description"
+                            [(ngModel)]="model.description"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Dependencies</th>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea class="input" type="text" name="dependencies"
+                            [(ngModel)]="model.dependencies"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Due Date</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="input" type="text" placeholder="mm/dd/yyyy" name="date"
+                            [(ngModel)]="model.timeToComplete">
+                    </td>
+                </tr>
+            </table>
+            <div class="submitBtn">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
